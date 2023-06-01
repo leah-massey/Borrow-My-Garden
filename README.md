@@ -54,7 +54,28 @@ Borrow My Garden will give users the opportunity to grow their own food and by d
 
 # Getting Started with Create React App
 
-`git clone https://github.com/jpates1/borrow-my-garden`
+`git clone https://github.com/leah-massey/Borrow-My-Garden.git`
+
+To get both backend and frontend running, in seperate terminals:  
+
+To start the server Back End: 
+
+```
+JWT_SECRET=SUPER_SECRET npm start
+```
+
+Front End
+
+``` 
+npm start
+```
+install dependencies in both server, root and client(or public?)
+```
+npm install 
+```
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
