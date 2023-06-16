@@ -44,16 +44,22 @@ Borrow My Garden will give users the opportunity to grow their own food and by d
 ## Challenges
 For this project, we wanted to push ourselves and try using the (new-to-us) technology, MongoDB Atlas. This path meant that we struggled to implement some of the features of the application, most significantly we struggled to implement the messaging feature whereby users can connect with other users and have a private thread of conversation. 
 
+<div align="right">[ <a href="#table-of-contents">↑ to top ↑</a> ]</div>
+
 <a name="demo"></a>
 ## Demo
 
 Coming soon! 
+
+<div align="right">[ <a href="#table-of-contents">↑ to top ↑</a> ]</div>
 
 <a name="technologies"></a>
 ## Technologies
 
 <p>We set up a React framework from scratch for this project. </p>
 <p>We used MongoDB Atlas.</p>
+
+<div align="right">[ <a href="#table-of-contents">↑ to top ↑</a> ]</div>
 
 <a name="setup"></a>
 ## Setup
@@ -86,4 +92,6 @@ npm install
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+<div align="right">[ <a href="#table-of-contents">↑ to top ↑</a> ]</div>
 
