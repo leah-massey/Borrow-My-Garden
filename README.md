@@ -1,38 +1,28 @@
-<h1 align="center" style="display: block; font-size: 2.5em; font-weight: bold; margin-block-start: 1em; margin-block-end: 1em;">
-  <br /><br /><strong>BORROW MY GARDEN</strong>
+<h1 align="center" display: block; font-size: 30px; font-weight: bold;">
+  <strong>BORROW MY GARDEN</strong>
+ 
 </h1>
 
-## Introduction
 
-Borrow My Garden is an application where users can list their unused gardens and connect with those who are looking for a plot to cultivate.
+Borrow My Garden is a web application where users can list their unused gardens and connect with those who are looking for a plot to cultivate.
 
-community project
-
-Users of Borrow My Garden will be able to
+When running, users of Borrow My Garden will be able to
 
 - Sign Up
 - List their garden
 - Browse all listed gardens
 - Connect with garden owners
 
-## [Table of contents](#tableofcontents)
 
-- [Motivation](#motivation)
-- [Composition](#composition)
-- [Software build](#software-build)
-  - [Build with ....](TBC)
-- [Integration](#integration)
-  - [Integrate for development](#integrate-for-development)
-- [Install](#install)
-- [Example Usage](#example-usage)
-  - [Sign up](#signup)
-  - [Login](#login)
-  - [List a Garden](#list-a-garden)
-  - [View All Gardens](#view-all-gardens)
-  - [Send a Message](#send-a-message)
-- [License](#license)
-- [Call to action](#call-to-action)
+## Table of contents
 
+-  🌸 [Motivation](#motivation)
+-  🤯 [Challenges](#challenges)
+-  📸 [Demo](#demo) 
+-  💻 [Technologies](#technologies) 
+-  🛠️ [Setup](#setup)
+
+<a name="motivation"></a>
 # Motivation
 
 **Lack of Allotment spaces**
@@ -50,13 +40,29 @@ Borrow My Garden will give users the opportunity to grow their own food and by d
 
 <div align="right">[ <a href="#table-of-contents">↑ to top ↑</a> ]</div>
 
-# Install
+<a name="motivation"></a>
+## Challenges
+For this project, we wanted to push ourselves and try using the (new-to-us) technology, MongoDB Atlas. This path meant that we struggled to implement some of the features of the application, most significantly we struggled to implement the messaging feature whereby users can connect with other users and have a private thread of conversation. 
 
-# Getting Started with Create React App
+<a name="demo"></a>
+## Demo
+
+Coming soon! 
+
+<a name="technologies"></a>
+## Technologies
+
+<p>We set up a React framework from scratch for this project. </p>
+<p>We used MongoDB Atlas.</p>
+
+<a name="setup"></a>
+## Setup
+
+First clone this repository
 
 `git clone https://github.com/leah-massey/Borrow-My-Garden.git`
 
-To get both backend and frontend running, in seperate terminals:  
+To get both backend and frontend running, open two terminals and run the following:  
 
 To start the server Back End: 
 
@@ -64,88 +70,16 @@ To start the server Back End:
 JWT_SECRET=SUPER_SECRET npm start
 ```
 
-Front End
+To start the server at the Front End
 
 ``` 
 npm start
 ```
-install dependencies in both server, root and client(or public?)
+
+install dependencies in both server, root and client
 ```
 npm install 
 ```
-
-
-
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-`npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-`npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-`npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-`npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-<div align="right">[ <a href="#table-of-contents">↑ to top ↑</a> ]</div>
-
-# Example Usage
-
-insert video / screenshot demo here 
-
-# Sign up 
-
-insert video / screenshot demo here
-
-# Login
-
-insert video / screenshot demo here
-
-# List a Garden
-
-insert video / screenshot demo here
-
-# View All Gardens
-
-insert video / screenshot demo here
-
-# Send a Message
-
-insert video / screenshot demo here
-
-
-<div align="right">[ <a href="#table-of-contents">↑ to top ↑</a> ]</div>
-
-// not sure if all this is needed??? James, please confirm!!
 
 ## Learn More
 
@@ -153,26 +87,3 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
